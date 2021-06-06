@@ -1,0 +1,20 @@
+.thank-you {
+	margin: 0 !important;
+}
+
+.message-container {
+	height: 100vh;
+}
+
+@media (max-width: 576px) {
+	.message-container h1 {
+		font-size: 3rem;
+	}
+	h5 {
+		font-size: 1rem;
+	}
+}
+
+h5 {
+	color: grey;
+}
