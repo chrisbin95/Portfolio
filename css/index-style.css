@@ -36,7 +36,7 @@ body::-webkit-scrollbar-thumb {
 	body {
 		background-color: #081663;
 		background-image: none;
-		background: linear-gradient(147deg, #070314 50%, #10062c 100%) center center no-repeat !important;
+		background: linear-gradient(147deg, #020105 20%, #10062c 100%) center center no-repeat !important;
 		background-attachment: scroll;
 	}
 	#cover {
