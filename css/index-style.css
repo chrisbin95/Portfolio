@@ -506,9 +506,9 @@ input:-webkit-autofill:active {
 
 .counter {
   width:100%;
-  height: 50px;
+  height: 55px;
   padding: 2px;
-  background: radial-gradient(circle, #0f356f, #071935) !important;
+  background: radial-gradient(circle, #0b00c1b3, #05014ab3) !important;
   z-index: 999;
 }
 /*counter-css*/
