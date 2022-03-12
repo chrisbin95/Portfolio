@@ -2,6 +2,6 @@
 
 ### Chrisbin's Portfolio Website
 
-#### This is my portolio website. Feel free to look around the repository and inspect the console! ;-)
+#### This is my portolio website. Feel free to look around the repository and inspect the demo console! 😉
 
-### Created: May 2021 &copy;
+##### Created: May 2021 &copy;
