@@ -2,6 +2,6 @@
 
 ### Chrisbin's Portfolio Website
 
-#### This is my portolio website. Feel free to look around the files to see the html, css, and js scripts and edit :-)
+#### This is my portolio website. Feel free to look around the repository and inspect the console! ;-)
 
 ### Created: May 2021 &copy;
