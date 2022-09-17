@@ -30,11 +30,11 @@
       <div id="top"></div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-light" id="navbar-main">
          <div class="container-fluid">
-            <img src="./images/logo.png" width="40" height="40" class="d-inline-block align-middle bounce-logo" alt="">
+            <img src="./images/logo.png" width="40" height="40" class="d-inline-block align-middle bounce-logo" alt="CT">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="#top" onclick="matrixBg()">
                <p class="d-inline align-middle logo-text effect-underline">Chrisbin Thomas</p>
             </a>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -59,13 +59,15 @@
             </div>
          </div>
       </nav>
+      <canvas width="500" height="700" id="canv"></canvas>
       <section id="cover">
          <div id="cover-caption" class="text-center">
             <div class="container text-center">
                <div class="col">
+                  <!-- <button style="width: 10%;" onclick="fadeout()">Try Me!</button> -->
                   <h1 class="display-3">Hello, Welcome to my portfolio</h1>
                   <br>
-                  <a href="#about-anchor" role="button" class=" btn learn-more">About Me <i class="fas fa-solid fa-angle-right" style="font-size:13px;"></i></a>
+                  <a href="#about-anchor" role="button" class=" btn learn-more">About Me&nbsp;<i class="fas fa-solid fa-angle-right" style="font-size:13px;"></i></a>
                </div>
             </div>
          </div>
@@ -73,7 +75,7 @@
       <div class="spacer" id="about-anchor"></div>
       <section id="about">
          <div class="container">
-            <h1 class="display-4 description text-center">About Me</h1>
+            <h2 class="display-4 description text-center">About Me</h2>
             <p class="lead text-center about-describe">Read all about me; it's up to you &#128516;</p>
             <div class="row">
                <div class="col-sm-8" data-aos="zoom-in-down">
@@ -92,7 +94,7 @@
       <div class="spacer" id="projects-anchor"></div>
       <section id="projects">
          <div class="container">
-            <h1 class="display-4 text-center description">Projects</h1>
+            <h2 class="display-4 text-center description">Projects</h2>
             <p class="lead text-center about-describe">Projects I've done! &#8987;</p>
             <div class="col-md-12">
                <div class="card-columns">
@@ -143,8 +145,8 @@
                      </div>
                      <div class="card-body">
                         <h5 class="card-title">Projects</h5>
-			<p class="card-text">Projects I've worked on or been a part of over the years.<br/> Links to the deployment sites are provided.</p>
-                        <code><marquee Scrollamount=7 direction="left" loop=""><i class="fas fa-angle-double-left me-3"></i> Click to View <i class="fas fa-angle-double-right me-3"></i></marquee></code>
+			            <p class="card-text">Projects I've worked on or been a part of over the years.<br/> Links to the deployment sites are provided.</p>
+                        <code><marquee Scrollamount=7 direction="left" loop="" onmouseover="this.stop();" onmouseout="this.start();"><i class="fas fa-angle-double-left me-3"></i> Click to View <i class="fas fa-angle-double-right me-3"></i></marquee></code>
                         <ul style="list-style-type: none;">
                            <li>
                               <a href="https://chrisbin95.github.io/covid-tracker/"><i class="fas fa-external-link-alt me-3"></i> &nbsp;Covid Tracker App</a><br/>
@@ -158,16 +160,16 @@
                               <a href="https://chrisbin95.github.io/netflix-clone-app/"><i class="fas fa-external-link-alt me-3"></i> &nbsp;Netflix Clone App</a>
                            </li>
 				
-			   <li>
-                              <a href="https://ksgi.edu.in/" target="_blank" rel="noreferrer"><i class="fas fa-external-link-alt me-3"></i> &nbsp;KSGI Website</a>&nbsp;<i class="fas fa-code-branch me-3"></i>&nbsp;<a href="https://rapsoltechnologies.com/" target="_blank" rel="noreferrer">Rapsol Technologies</a>
+			                  <li>
+                              <a href="https://ksgi.edu.in/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt me-3"></i> &nbsp;KSGI Website</a>&nbsp;<i class="fas fa-code-branch me-3"></i>&nbsp;<a href="https://rapsoltechnologies.com/" target="_blank" rel="noopener">Rapsol Technologies</a>
                            </li>
 				
-			   <li>
-                              <a href="https://kssem.edu.in/" target="_blank" rel="noreferrer"><i class="fas fa-external-link-alt me-3"></i> &nbsp;KSSEM Website</a>&nbsp;<i class="fas fa-code-branch me-3"></i>&nbsp;<a href="https://rapsoltechnologies.com/" target="_blank" rel="noreferrer">Rapsol Technologies</a>
+			                  <li>
+                              <a href="https://kssem.edu.in/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt me-3"></i> &nbsp;KSSEM Website</a>&nbsp;<i class="fas fa-code-branch me-3"></i>&nbsp;<a href="https://rapsoltechnologies.com/" target="_blank" rel="noopener">Rapsol Technologies</a>
                            </li>
 				
-			   <li>
-                              <a href="https://www.ksit.ac.in/" target="_blank" rel="noreferrer"><i class="fas fa-external-link-alt me-3"></i> &nbsp;KSIT Website</a>&nbsp;<i class="fas fa-code-branch me-3"></i>&nbsp;<a href="https://rapsoltechnologies.com/" target="_blank" rel="noreferrer">Rapsol Technologies</a>
+			                  <li>
+                              <a href="https://www.ksit.ac.in/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt me-3"></i> &nbsp;KSIT Website</a>&nbsp;<i class="fas fa-code-branch me-3"></i>&nbsp;<a href="https://rapsoltechnologies.com/" target="_blank" rel="noopener">Rapsol Technologies</a>
                            </li>
                         </ul>
                      </div>
@@ -203,7 +205,7 @@
 				
                            <li><span class="project-title">Data science using Python and R</span> from 2020-21, by <b>IIHT, Bangalore.</b></li>
 				
-			   <li><span class="project-title"><b>Work Experience</b>: <a href="https://rapsoltechnologies.com/" target="_blank" rel="noreferrer">Rapsol Technologies Pvt. Lmt</a>, Bangalore</span> from June 2021 to 2022 as the software engineer position.</b></li>
+			   <li><span class="project-title"><b>Work Experience</b>: <a href="https://rapsoltechnologies.com/" target="_blank" rel="noopener">Rapsol Technologies Pvt. Lmt</a>, Bangalore</span> from June 2021 to 2022 as the software engineer position.</b></li>
                         </ul>
                      </div>
                      <div class="card-footer">
@@ -217,8 +219,8 @@
       </section>
 
       <div class="spacer" id="timeline-anchor"></div>
-            <h1 class="display-4 text-center description">My Experiences</h1>
-            <p class="lead text-center about-describe">Education Qualification &#127942</p>
+            <h2 class="display-4 text-center description">My Experiences</h2>
+            <p class="lead text-center about-describe">Education Qualification &#127942;</p>
 
       <div class="container mobile-limit">
       <div class="timeline">
@@ -280,9 +282,8 @@
    
       <div class="spacer-1" id="contact-anchor"></div>
       <section id="contact">
-         <div class="container" data-aos="zoom-out-down" data-aos-offset="100"
-            data-aos-easing="ease-in-sine">
-            <h1 class="display-4 description text-center">Contact Me</h1>
+         <div class="container" data-aos="zoom-out-down" data-aos-offset="100" data-aos-easing="ease-in-sine">
+            <h2 class="display-4 description text-center">Contact Me</h2>
             <!-- <form id="contact-form" method="POST" enctype="multipart/form-data" name="contact-form" action="https://formspree.io/f/xeqvaywp"> -->
             <form id="contact-form" method="POST" enctype="multipart/form-data" name="contact-form" action="https://formsubmit.co/chrisbin95@gmail.com">
                <!-- <form action="https://formsubmit.co/chrisbin95@gmail.com" method="POST" id="contact-form"></form> -->
@@ -379,7 +380,7 @@
                         chrisbin95@gmail.com</a>
                      </p>
                      <p><i class="fas fa-phone me-3" id="phone"></i> <a href="tel:+971529581209" class="text-reset no-underline">+971529581209</a></p>
-		     <p><i class="fas fa-whatsapp me-3" id="phone"></i> <a href="https://wa.me/+918667302913" class="text-reset no-underline" target="_blank">Chat on Whatsapp</a></p>
+		     <p><i class="fas fa-whatsapp me-3" id="phone"></i> <a href="https://wa.me/+918667302913" class="text-reset no-underline" target="_blank" rel="noopener">Chat on Whatsapp</a></p>
                      <p>
                         <a class="text-reset no-underline" href="./pdf.html" target="_blank">
                         <i class="fas fa-file me-3" id="mail"></i>
@@ -392,26 +393,26 @@
          <!-- Section: Links  -->
          <!-- Copyright -->
          <div id="socials">
-         <a href="https://www.facebook.com/chrisbin.thomas" class="me-4 text-reset social-href" target="_blank">
+         <a href="https://www.facebook.com/chrisbin.thomas" class="me-4 text-reset social-href" target="_blank" rel="noopener">
          <i class="fab fa-facebook fa-2x social"></i>
          </a>
-         <a href="https://www.instagram.com/gazerchris.xcv" class="me-4 text-reset social-href" target="_blank">
+         <a href="https://www.instagram.com/gazerchris.xcv" class="me-4 text-reset social-href" target="_blank" rel="noopener">
          <i class="fab fa-instagram fa-2x social"></i>
          </a>
-         <a href="https://www.linkedin.com/in/chrisbin-thomas-334744195" class="me-4 text-reset social-href" target="_blank">
+         <a href="https://www.linkedin.com/in/chrisbin-thomas-334744195" class="me-4 text-reset social-href" target="_blank" rel="noopener">
          <i class="fab fa-linkedin fa-2x social"></i>
          </a>
-         <a href="https://github.com/chrisbin95" class="me-4 text-reset social-href" target="_blank">
+         <a href="https://github.com/chrisbin95" class="me-4 text-reset social-href" target="_blank" rel="noopener">
          <i class="fab fa-github fa-2x social"></i>
          </a>
-         <a href="https://soundcloud.com/chrisbin-thomas" class="me-4 text-reset social-href" target="_blank">
+         <a href="https://soundcloud.com/chrisbin-thomas" class="me-4 text-reset social-href" target="_blank" rel="noopener">
          <i class="fab fa-soundcloud fa-2x social"></i>
          </a>
          </div>
          </div>
 	 <!-- Copyright -->
-         <div class="text-center p-2" id="copyright">&copy; 2021 - 2022 | Copyright &#8758;
-            <a class="fw-bold copyright-text" href="#">Chrisbin Thomas</a>
+         <div class="text-center p-2" id="copyright">&copy; 2021 - <script>document.write(new Date().getFullYear());</script> | Copyright &#8758;
+            <a class="fw-bold copyright-text" href="#" onclick="matrixBg()">Chrisbin Thomas</a>
          </div>
 	 <!--Counter-->
          <div class="counter">
@@ -421,6 +422,18 @@
 	 <!--END Counter-->
          <!-- END Footer -->
       </footer>
+      <script>
+         window.onscroll = function() {myFunction()};
+         var navbar = document.getElementById("navbar-main");
+         var sticky = navbar.offsetTop;
+         function myFunction() {
+              if (window.pageYOffset >= 522) {
+                navbar.classList.add("fixed");
+              } else {
+                navbar.classList.remove("fixed");
+           }
+         };
+         </script>
       <!--Script links-->
       <script src="./js/preloader.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.js"></script>
@@ -430,6 +443,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popmotion/9.3.5/popmotion.global.min.js" integrity="sha512-lCA8fXX15HqEtY3PWLzRz7ABdGk3JUxYavDD7PvoR2WtMMcZI2gZ3u766lCwaHeMPRPZoRLLEcYq1MYpl1kgQQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <script src="./js/form.js"></script>
+      <script src="./js/test.js"></script>
       <script src="./js/animations.js"></script>
       <script src="./js/visitors.js"></script>
    </body>
