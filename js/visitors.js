@@ -25,14 +25,14 @@ const displayCount = (value) => {
 };
 
 // Define a function to handle error
-const handleError = (error) => {
+const handleError1 = (error) => {
   console.log(error);
 };
 
 // Define a namespace and a key for your website
-const namespace = "https://chrisbin95.github.io/Portfolio/";
+const namespace = "Portfolio";
 const key = "visit-count";
 
 // Call the CountAPI.hit() method to increment and get the current value
-CountAPI.hit(namespace, key).then(displayCount).catch(handleError);
+CountAPI.hit(namespace, key).then(displayCount).catch(handleError1);
 
