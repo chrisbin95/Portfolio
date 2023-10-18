@@ -21,7 +21,7 @@ const displayCount = (value) => {
   // Get the element with id="counter" from HTML
   const counter = document.getElementById("CounterVisitor");
   // Set the innerHTML of the element to the value
-  counter.innerHTML = value;
+  CounterVisitor.innerHTML = value;
 };
 
 // Define a function to handle error
