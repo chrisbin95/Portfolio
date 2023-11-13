@@ -36,15 +36,15 @@ const key = "visits";
 
 // Call the CountAPI.hit() method to increment and get the current value
 CountAPI.hit(namespace, key).then(displayCount).catch(handleError1);*/
-const countEl = document.getElementById('CounterVisitor');
+//const countEl = document.getElementById('CounterVisitor');
 
-updateVisitCount();
+//updateVisitCount();
 
-function updateVisitCount() {
-	fetch("/api/v1/visit/update/chrisbinthomas/visits?amount=1")
-	.then(res => res.json())
-	.then(res => {
-		countEl.innerHTML = res.value;
-	})
-}
+//function updateVisitCount() {
+	//fetch("/api/v1/visit/update/chrisbinthomas/visits?amount=1")
+	//.then(res => res.json())
+	//.then(res => {
+		//countEl.innerHTML = res.value;
+	//})
+//}
 
