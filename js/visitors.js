@@ -50,7 +50,7 @@ CountAPI.hit(namespace, key).then(displayCount).catch(handleError1);*/
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["hard", "fun", "a journey", "life", "good"];
+const textArray = ["hard", "fun", "a journey", "life", "good", <span class="material-symbols-outlined">html</span>];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000; // Delay between current and next text
