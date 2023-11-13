@@ -14,8 +14,8 @@
   overflow: hidden;
 }
 .container-cursor p span.typed-text {
-  font-weight: normal;
-  color: #dd7732;
+  font-weight: 600;
+  color: #4962f5;
 }
 .container-cursor p span.cursor {
   display: inline-block;
