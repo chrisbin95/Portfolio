@@ -6,7 +6,7 @@
   align-items: center;
 }
 .container-cursor p {
-  font-family:'consolas';
+  font-family:'Inconsolata', monospace;
   font-size: 3rem;
   padding: 0.5rem;
   font-weight: 700;
