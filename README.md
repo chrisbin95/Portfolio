@@ -1,5 +1,5 @@
 ## Chrisbin Thomas - Portfolio 	&#8594; <a href="https://chrisbin95.github.io/Portfolio/">Github Pages Link</a>
-## Chrisbin Thomas - Portfolio 	&#8594; <a href="[https://chrisbin95.github.io/Portfolio/](https://chrisbin.vercel.app/)">Vercel Production Link</a>
+## Chrisbin Thomas - Portfolio 	&#8594; <a href="https://chrisbin.vercel.app/">Vercel Production Link</a>
 
 ### Welcome to my Portfolio
 
