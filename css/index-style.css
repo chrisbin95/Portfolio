@@ -35,3 +35,10 @@
   99% { background-color: transparent; }
   100%  { background-color: #ccc; }
 }
+@media (min-width: 576px) {
+  .card-columns .card {
+    display: inline-block !important;
+    width: 100% !important;
+    min-height: 700px !important;
+  }
+}
