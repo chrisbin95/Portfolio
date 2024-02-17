@@ -19,6 +19,17 @@
       <link rel="stylesheet" href="./css/preloader.css">
       <link rel="shortcut icon" type="image/x-icon" href="cticon.ico"/>
       <title>Chrisbin Thomas - Portfolio</title>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+      $(document).ready(function() {
+      // Check if the URL has a .html extension
+      if (window.location.pathname.endsWith('.html')) {
+      // Remove the .html extension and update the URL
+      var newPath = window.location.pathname.replace('.html', '');
+      window.history.replaceState({}, document.title, newPath);
+      }
+      });
+      </script>
    </head>
    <body data-spy="scroll" data-target="#navbar-main" data-offset="50">
       <script>
