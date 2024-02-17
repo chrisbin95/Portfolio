@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <link rel="stylesheet" href="./css/index-style.css">
+      <link rel="stylesheet" href="./css/submission-confirm.css">
+      <link rel="shortcut icon" type="image/x-icon" href="cticon.ico"/>
+      <title>404</title>
+   </head>
+   <body>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-light" id="navbar-main">
+         <div class="container-fluid">
+           <img src="./images/logo.png" width="40" height="40" class="d-inline-block align-middle bounce-logo" alt="CT">
+           <a class="navbar-brand" href="index.html">
+              <p class="d-inline align-middle logo-text effect-underline">Chrisbin Thomas</p>
+           </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+               <ul class="navbar-nav nav-pills">
+                  <li class="nav-item">
+                     <a class="nav-link"  href="index.html#top">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html#about-anchor">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html#projects-anchor">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html#timeline-anchor">Experiences</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html#contact-anchor">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <canvas width="100%" height="100%" id="canv"></canvas>
+      <section class="thank-you" id="thankyou">
+         <div class="container message-container d-flex">
+            <div class="row align-self-center">
+               <h1 class="display-2 text-center"><i class="fas fa-solids me-3"></i> 404. Requested page not found!</h1>
+               <h5 class="text-center mx-auto">The page you are looking for might have been removed, had its name changed or is temporarily unavailable &#128511;</h5>
+               <a href="index.html" class="mx-auto btn submit">Back to Home <b><i class="fas fa-angle-right me-3"></i></b></a>
+            </div>
+         </div>
+      </section>
+      <!-- Footer  -->
+      <footer class="text-center text-lg-start text-light" id="footer-main">
+        <div class="spacer"></div>
+        <hr>
+        <!-- Section: Links  -->
+        <section>
+           <div class="container text-left text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                 <!-- Grid column -->
+                 <div class="col-md-6 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4 footer-lead">
+                       <i class="fas fa-male me-3"></i> Chrisbin Thomas
+                    </h6>
+                    <p>
+                       <b>Hello!</b> Thankyou for showing patience on visiting my Portfolio. Please Feel free to send an <a href="chrisbin95@gmail.com">Email <i class="fas fa-envelope"></i></a> &amp; let me know the queries.
+                    </p>
+                 </div>
+                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4 footer-lead">
+                       <i class="fas fa-link me-3"></i> Useful links
+                    </h6>
+                    
+                    <p>
+                       <a href="#top", class="text-reset useful-links"><i class="fas fa-caret-right" id="caret-link"></i> Top of Page</a>
+                    </p>
+                    <p>
+                       <a href="#about-anchor" class="text-reset useful-links"><i class="fas fa-caret-right" id="caret-link"></i> About Me</a>
+                    </p>
+                    <p>
+                       <a href="#projects-anchor" class="text-reset useful-links"><i class="fas fa-caret-right" id="caret-link"></i> Projects</a>
+                    </p>
+                    <p>
+                       <a href="#contact-anchor" class="text-reset useful-links"><i class="fas fa-caret-right" id="caret-link"></i> Contact</a>
+                    </p>
+                 </div>
+                 <!-- Grid column -->
+                 <!-- Grid column -->
+                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4 footer-lead">
+                       <i class="fas fa-address-book"></i> Contact Me
+                    </h6>
+                    <p><i class="fas fa-home me-3" id="home"></i> Oxford, UK </p>
+                    <p>
+                       <a href="mailto:chrisbin95@gmail.com" class="text-reset no-underline">
+                       <i class="fas fa-envelope me-3" id="mail"></i>
+                       chrisbin95@gmail.com</a>
+                    </p>
+                    <p><i class="fas fa-phone me-3" id="phone"></i> <a href="tel:+919744569679" class="text-reset no-underline">+91 9744569679</a></p>
+            <p><i class="fab fa-whatsapp me-3" id="phone"></i> <a href="https://wa.me/+919744569679" class="text-reset no-underline" target="_blank" rel="noopener">Chat on Whatsapp</a></p>
+                    <p>
+                       <a class="text-reset no-underline" href="./pdf.html" target="_blank">
+                       <i class="fas fa-file me-3" id="mail"></i>
+                       View Resume</a> or <a class="text-reset no-underline" href="./images/Chrisbin_Resume.pdf">Download</a>
+                    </p>
+                 </div>
+                 <!-- Grid row -->
+              </div>
+        </section>
+        <!-- Section: Links  -->
+        <!-- Copyright -->
+        <div id="socials">
+        <a href="https://www.facebook.com/chrisbin.thomas" class="me-4 text-reset social-href" target="_blank" rel="noopener">
+        <i class="fab fa-facebook fa-2x social"></i>
+        </a>
+        <a href="https://www.instagram.com/gazerchris.xcv" class="me-4 text-reset social-href" target="_blank" rel="noopener">
+        <i class="fab fa-instagram fa-2x social"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/chrisbin-thomas-334744195" class="me-4 text-reset social-href" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin fa-2x social"></i>
+        </a>
+        <a href="https://github.com/chrisbin95" class="me-4 text-reset social-href" target="_blank" rel="noopener">
+        <i class="fab fa-github fa-2x social"></i>
+        </a>
+        <a href="https://soundcloud.com/chrisbin-thomas" class="me-4 text-reset social-href" target="_blank" rel="noopener">
+        <i class="fab fa-soundcloud fa-2x social"></i>
+        </a>
+        </div>
+        </div>
+    <!-- Copyright -->
+        <div class="text-center p-2" id="copyright">&copy; 2021 - <script>document.write(new Date().getFullYear());</script> | Copyright &#8758;
+           <a class="fw-bold copyright-text" href="#" onclick="matrixBg()">Chrisbin Thomas</a>
+        </div>
+    <!--Counter-->
+        <div class="counter text-center py-3">
+        <div class="head">
+           <a href="https://hits.sh/chrisbin95.github.io/Portfolio/"><img alt="Hits" src="https://hits.sh/chrisbin95.github.io/Portfolio.svg?color=05014ae6&labelColor=435add"/></a>
+           <form action="http://www.google.com/search" method="get" style="padding-top: 4px;"> <fieldset> <input type="hidden" name="sitesearch" value="https://github.com/chrisbin95/Portfolio/" /> 
+           <input title="google search" placeholder="type here" type="text" name="q" size="31" maxlength="255" value="" style="background-color: #ffffff21;color:#fff"> <input type="submit" value="Search" /> </fieldset> </form>
+           <!--<a href='http://www.freevisitorcounters.com'; color:"transparent";>freevisitorcounters.com</a>-->
+       </div>     
+    </div>
+    <!--END Counter-->
+    <!-- END Footer -->
+     </footer>
+     
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popmotion/9.3.5/popmotion.global.min.js" integrity="sha512-lCA8fXX15HqEtY3PWLzRz7ABdGk3JUxYavDD7PvoR2WtMMcZI2gZ3u766lCwaHeMPRPZoRLLEcYq1MYpl1kgQQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="./js/form.js"></script>
+      <script src="./js/test.js"></script>
+      <script src="./js/animations.js"></script>
+      <script src="./js/visitors.js"></script>
+   </body>
+</html>
