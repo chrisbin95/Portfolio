@@ -1,8 +1,6 @@
 ## Chrisbin Thomas - Portfolio 	
-### &#8594; 
-<a href="https://chrisbin95.github.io/Portfolio/">Github Pages Link</a>
-### &#8594; 
-<a href="https://chrisbin.vercel.app/">Vercel Production Link</a>
+### &#8594; <a href="https://chrisbin95.github.io/Portfolio/">Github Pages Link</a>
+### &#8594; <a href="https://chrisbin.vercel.app/">Vercel Production Link</a>
 
 ## Preview
 
